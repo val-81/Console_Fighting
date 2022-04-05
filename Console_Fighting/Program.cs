@@ -68,6 +68,10 @@ namespace Console_Fighting
                     {
                         enemyHealth -= 20;
                         playerEnergy -= 10;
+                        playerHealth -= 15;
+                        Console.WriteLine("Вирус разбушевался!");
+                        Console.WriteLine("Ты получил дополнительно 10 урона!");
+                        Console.ReadLine();
                     }
                     else
                     {
@@ -141,7 +145,7 @@ namespace Console_Fighting
 
                 if (action == 2)
                 {
-                    enemyHealth += 10;
+                    enemyHealth += 20;
                 }
 
                 if (action == 3)
